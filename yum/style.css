@@ -53,4 +53,70 @@ table {
 
 /* END RESET */
 
+@font-face {
+	font-family: neutraReg;
+	src: url(Font/NeutraText-Demi.ttf);
+}
 
+@font-face {
+	font-family: neutraCon;
+	src: url(Font/NeutrafaceCondensed-BoldAlt.otf);
+}
+
+@font-face {
+	font-family: charCap;
+	src: url(Font/ChaparralPro-Capt.otf);
+}
+
+@font-face {
+	font-family: charItal;
+	src: url(Font/ChaparralPro-ItCapt.otf);
+}
+
+@font-face {
+	font-family: neutraBold;
+	src: url(Font/NeutraTextTF-Bold.otf);
+}
+
+@font-face {
+	font-family: charDisp;
+	src: url(Font/ChaparralPro-Disp.otf);
+}
+
+.song {
+	font-family: charCap;
+	font-size: 15px;
+	background-color: #dfdfdf;
+}
+
+h1 {
+	font-family: neutraReg;
+	font-size: 45px;
+}
+
+h2 {
+	font-family: neutraCon;
+	font-size: 80px;
+}
+
+h5 {
+	font-family: charItal;
+	font-size: 15px;
+}
+
+.ingredients {
+	font-family: charCap;
+	font-size: 15px;
+	line-height: 1.2em;
+}
+
+.instructions {
+	font-family: charDisp;
+	font-size: 17px;
+	line-height: 1.25em;
+}
+
+.section {
+	font-family: neutraBold;
+	font-size: 20px;
+}
