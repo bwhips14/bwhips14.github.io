@@ -85,38 +85,54 @@ table {
 
 .song {
 	font-family: charCap;
-	font-size: 15px;
+	font-size: 13px;
 	background-color: #dfdfdf;
+	display: inline-block;
+	text-align: right;
+	line-height: 1.25em;
+	padding: 30px 80px 30px 30px;
+	margin: 10px 25px 25px 50px;
 }
 
 h1 {
 	font-family: neutraReg;
-	font-size: 45px;
+	font-size: 36.5px;
+	margin: 10px 25px 0px 50px;
 }
 
 h2 {
 	font-family: neutraCon;
-	font-size: 80px;
+	font-size: 65px;
+	margin: -5px 25px 8px 50px;
 }
 
 h5 {
 	font-family: charItal;
 	font-size: 15px;
+	margin: 0px 25px 25px 50px;
 }
 
 .ingredients {
 	font-family: charCap;
 	font-size: 15px;
 	line-height: 1.2em;
+	margin: 0px 25px 25px 50px;
 }
 
 .instructions {
 	font-family: charDisp;
 	font-size: 17px;
 	line-height: 1.25em;
+	margin: 0px 25px 10px 50px;
 }
 
 .section {
 	font-family: neutraBold;
-	font-size: 20px;
+	font-size: 19px;
+	letter-spacing: 0.03em;
+	margin: 10px 25px 10px 50px;
+}
+
+.sentence {
+	margin: 5.5px 0px 0px 0px;
 }
