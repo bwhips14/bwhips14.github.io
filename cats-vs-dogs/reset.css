@@ -74,3 +74,48 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
+
+h1 {
+	margin: 10px 20px 10px 20px;
+}
+
+h2 {
+	display: inline-block;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 22px;
+	margin: 15px 0px 10px 0px;
+}
+
+.links {
+	display: inline-block;
+	font-family: serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 0px 70px;
+	margin: 20px 0px;
+}
+
+nav ul li {
+	float: left;
+	padding: 6px 12px 3px 12px;
+}
+
+.clear {
+	clear: left;
+}
+
+.obama {
+	margin: 20px 0px 0px 0px;
+}
+
+.botLinks {
+	display: inline-block;
+	font-size: 13px;
+	border-top: 3px solid black;
+	padding: 0px 70px;
+	margin: 20px 0px;
+}
