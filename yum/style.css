@@ -83,6 +83,11 @@ table {
 	src: url(Font/ChaparralPro-Disp.otf);
 }
 
+@font-face {
+	font-family: charBold;
+	src: url(Font/ChaparralPro-BoldCapt.otf);
+}
+
 .song {
 	font-family: charCap;
 	font-size: 13px;
@@ -113,10 +118,21 @@ h5 {
 }
 
 .ingredients {
-	font-family: charCap;
-	font-size: 15px;
+	font-family: charBold;
+	font-size: 13.5px;
 	line-height: 1.2em;
-	margin: 0px 25px 25px 50px;
+	margin: 0px 0px 25px 50px;
+	text-align: right;
+	float: left;
+}
+
+.ingredientsToo {
+	font-family: charCap;
+	font-size: 13.5px;
+	line-height: 1.2em;
+	margin: 0px 25px 25px 10px;
+	float: left;
+	text-align: left
 }
 
 .instructions {
@@ -126,13 +142,35 @@ h5 {
 	margin: 0px 25px 10px 50px;
 }
 
+
+#section {
+	font-family: neutraBold;
+	font-size: 19px;
+	letter-spacing: 0.03em;
+	margin: 10px 25px 10px 0px;
+}
+
 .section {
 	font-family: neutraBold;
 	font-size: 19px;
 	letter-spacing: 0.03em;
 	margin: 10px 25px 10px 50px;
+	clear: left;
 }
 
 .sentence {
 	margin: 5.5px 0px 0px 0px;
 }
+
+ol {
+	counter-reset: myCounter;
+}
+
+ol li:before {
+	content: counter(myCounter);
+	counter-increment: myCounter;
+	margin: 0px 20px 0px -30px;
+	font-family: neutraReg;
+	font-size: 20px;
+}
+
