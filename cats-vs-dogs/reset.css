@@ -75,11 +75,29 @@ html[xmlns] .clearfix { display: block; }
 
 
 body {
-	width: 50%;
+	width: 100%;
 }
 
-h1 {
-	margin: 10px 20px 10px 20px;
+header {
+	text-align: center;
+}
+
+.links {
+	width: 690px;
+	display: inline-block;
+	font-family: serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	margin: 20px 0px;
+}
+
+ol li {
+	float: left;
+	display: inline-block;
+	margin: 6px 20px 3px 30px;
 }
 
 h2 {
@@ -90,49 +108,30 @@ h2 {
 	margin: 15px 0px 10px 0px;
 }
 
-.links {
+section {
+	width: 690px;
 	display: inline-block;
-	font-family: serif;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 22px;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
-	padding: 0px 80px;
-	margin: 20px 0px;
-	width: 70%;
 }
 
-nav ul li {
+.article {
 	float: left;
-	padding: 6px 12px 3px 12px;
-}
-
-.clear {
-	clear: left;
-}
-
-.obama {
-	margin: 20px 0px 0px 0px;
-}
-
-article {
-	float: left;
-	width: 40%;
-	margin: 15px;
+	width: 320px;
+	margin: 10px;
+	text-align: left;
 }
 
 footer {
 	clear: left;
-}
-
-.botLinks {
+	width: 690px;
 	display: inline-block;
 	font-size: 13px;
 	border-top: 3px solid black;
-	padding: 0px 70px;
-	margin: 20px 0px;
-	clear: left;
-	width: 70%;
+}
+
+ul li {
+	float: left;
+	display: inline-block;
+	padding: 6px 20px;
+	margin: 0px 50px;
 }
 
