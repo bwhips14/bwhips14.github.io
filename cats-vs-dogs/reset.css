@@ -74,6 +74,9 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
+body {
+	width: 50%;
+}
 
 h1 {
 	margin: 10px 20px 10px 20px;
@@ -95,8 +98,9 @@ h2 {
 	font-size: 22px;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
-	padding: 0px 70px;
+	padding: 0px 80px;
 	margin: 20px 0px;
+	width: 70%;
 }
 
 nav ul li {
@@ -112,10 +116,23 @@ nav ul li {
 	margin: 20px 0px 0px 0px;
 }
 
+article {
+	float: left;
+	width: 40%;
+	margin: 15px;
+}
+
+footer {
+	clear: left;
+}
+
 .botLinks {
 	display: inline-block;
 	font-size: 13px;
 	border-top: 3px solid black;
 	padding: 0px 70px;
 	margin: 20px 0px;
+	clear: left;
+	width: 70%;
 }
+
