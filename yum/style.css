@@ -88,6 +88,11 @@ table {
 	src: url(Font/ChaparralPro-BoldCapt.otf);
 }
 
+body {
+	margin: 0 auto;
+	width: 50%;
+}
+
 .song {
 	font-family: charCap;
 	font-size: 13px;
