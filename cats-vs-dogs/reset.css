@@ -114,8 +114,8 @@ h2 {
 }
 
 section {
+	margin: 0 auto;
 	width: 690px;
-	display: inline-block;
 }
 
 .article {
@@ -125,9 +125,9 @@ section {
 }
 
 footer {
+	margin: 0 auto;
 	clear: left;
 	width: 690px;
-	display: block;
 	font-size: 13px;
 	border-top: 3px solid black;
 }
