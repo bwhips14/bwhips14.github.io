@@ -53,40 +53,9 @@ table {
 
 /* END RESET */
 
-@font-face {
-	font-family: neutraReg;
-	src: url(Font/NeutraText-Demi.ttf);
-}
 
-@font-face {
-	font-family: neutraCon;
-	src: url(Font/NeutrafaceCondensed-BoldAlt.otf);
-}
 
-@font-face {
-	font-family: charCap;
-	src: url(Font/ChaparralPro-Capt.otf);
-}
 
-@font-face {
-	font-family: charItal;
-	src: url(Font/ChaparralPro-ItCapt.otf);
-}
-
-@font-face {
-	font-family: neutraBold;
-	src: url(Font/NeutraTextTF-Bold.otf);
-}
-
-@font-face {
-	font-family: charDisp;
-	src: url(Font/ChaparralPro-Disp.otf);
-}
-
-@font-face {
-	font-family: charBold;
-	src: url(Font/ChaparralPro-BoldCapt.otf);
-}
 
 body {
 	margin: 0 auto;
@@ -97,29 +66,38 @@ body {
 	font-family: charCap;
 	font-size: 13px;
 	background-color: #dfdfdf;
-	display: inline-block;
 	text-align: right;
 	line-height: 1.25em;
 	padding: 30px 80px 30px 30px;
 	margin: 10px 25px 25px 50px;
+	width: 20%
+}
+
+header {
+	float: left;
+	width: 50%;
+	margin-right: 60px;
 }
 
 h1 {
 	font-family: neutraReg;
 	font-size: 36.5px;
 	margin: 10px 25px 0px 50px;
+	width: 100%;
 }
 
 h2 {
 	font-family: neutraCon;
 	font-size: 65px;
 	margin: -5px 25px 8px 50px;
+	width: 100%;
 }
 
 h5 {
 	font-family: charItal;
 	font-size: 15px;
 	margin: 0px 25px 25px 50px;
+	width: 100%;
 }
 
 .ingredients {
@@ -129,6 +107,7 @@ h5 {
 	margin: 0px 0px 25px 50px;
 	text-align: right;
 	float: left;
+
 }
 
 .ingredientsToo {
@@ -137,7 +116,13 @@ h5 {
 	line-height: 1.2em;
 	margin: 0px 25px 25px 10px;
 	float: left;
-	text-align: left
+	width: 50%;
+	text-align: left;
+}
+
+#ingredients {
+	float: left;
+	width: 40%;
 }
 
 .instructions {
@@ -179,3 +164,44 @@ ol li:before {
 	font-size: 20px;
 }
 
+
+
+
+
+
+
+
+@font-face {
+	font-family: neutraReg;
+	src: url(Font/NeutraText-Demi.ttf);
+}
+
+@font-face {
+	font-family: neutraCon;
+	src: url(Font/NeutrafaceCondensed-BoldAlt.otf);
+}
+
+@font-face {
+	font-family: charCap;
+	src: url(Font/ChaparralPro-Capt.otf);
+}
+
+@font-face {
+	font-family: charItal;
+	src: url(Font/ChaparralPro-ItCapt.otf);
+}
+
+@font-face {
+	font-family: neutraBold;
+	src: url(Font/NeutraTextTF-Bold.otf);
+}
+
+@font-face {
+	font-family: charDisp;
+	src: url(Font/ChaparralPro-Disp.otf);
+}
+
+@font-face {
+	font-family: charBold;
+	src: url(Font/ChaparralPro-BoldCapt.otf);
+}
