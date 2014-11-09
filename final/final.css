@@ -58,16 +58,31 @@ table {
 @media screen and (max-width:2000px) {
 	.slogan h4 { display: inline-block; max-width: 100%; height: auto; }
 	.slogan h5 { display: none;}
+	.logo h2 img { display: none; }
+	#smallnav ul li { display: none; }
 	}
 
 @media screen and (max-width:1020px) {
 	.slogan h4 { display: none; }
 	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
+	.logo h2 img { display: none; }
+	#smallnav ul li { display: none; }
 	}
 
+@media screen and (max-width:630px) {
+	#bottomnav ul { float: none; }
+	.contact p { display: none; }
+	#smallnav ul li { display: none; }
+	}
+	
 @media screen and (max-width:485px) {
 	.slogan h4 { display: none; }
 	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
+	.logo h2 img { display: inline-block; }
+	.logo h1 img { display: none; }
+	#bottomnav ul li { display: none; }
+	#smallnav ul li {display: block; }
+	.contact p { display: none; }
 	}
 		
 @font-face {
@@ -103,6 +118,13 @@ body {
 .logo h1 {
 	display: inline-block;
 	float: left;
+}
+
+.logo h2 {
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	left: 18%;
 }
 
 .title h2 {
@@ -189,6 +211,7 @@ footer {
 	background-color: #00C07A;
 	overflow: hidden;
 	clear: left;
+	padding-bottom: 20px;
 }
 
 footer p {
@@ -196,23 +219,42 @@ footer p {
 	font-size: 1.2em;
 	color: #ffffff;
 	text-transform: uppercase;
-	padding-top: 25px;
-	padding-left: 7%;
-	padding-bottom: 20px;
 	letter-spacing: .08em;
 }
 
-footer nav {
+.contact {
+	padding-top: 25px;
+	padding-left: 7%;
+	float: left;
+}
+
+#bottomnav {
+	display: inline-block;
 	float: right;
-	margin-top: -40px;
 	font-family: archIt;
 	font-size: 1em;
 	color: #ffffff;
-	margin-right: 7%;
+	margin-right: 8%;
+	padding-top: 25px;
 }
 
-footer li {
+#bottomnav li {
 	float: left;
 	padding: 0px 30px 0px 0px;
 }
+
+#smallnav {
+	display: inline-block;
+	font-family: archIt;
+	font-size: 1em;
+	color: #ffffff;
+	padding-top: 25px;
+}
+
+#smallnav li {
+	padding: 10px 0px 0px 0px;
+	margin-left: 7%;
+}
+
+
 
