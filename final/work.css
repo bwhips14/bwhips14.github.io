@@ -56,28 +56,35 @@ table {
 
 
 @media screen and (max-width:2000px) {
-	.slogan h4 { display: inline-block; max-width: 100%; height: auto; }
-	.slogan h5 { display: none;}
+	.images3 { display: none; }
+	.images2 { display: none; }	
 	.logo h2 img { display: none; }
 	#smallnav ul li { display: none; }
 	}
 
-@media screen and (max-width:1020px) {
-	.slogan h4 { display: none; }
-	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
-	.logo h2 img { display: none; }
-	#smallnav ul li { display: none; }
+@media screen and (max-width:1270px) {
+	.images3 { display: none; }
+	.images2 { display: block; }
+	.images { display: none; }
 	}
 
 @media screen and (max-width:630px) {
+	.images3 { display: none; }
+	.images img { display: none; }
 	#bottomnav ul { float: none; }
 	.contact p { display: none; }
 	#smallnav ul li { display: none; }
 	}
 	
+@media screen and (max-width:1000px) {
+	.images2 { display: none; }
+	.images3 { display: block; }
+	}
+		
 @media screen and (max-width:485px) {
-	.slogan h4 { display: none; }
-	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
+	.images3 { display: block; }
+	.images2 { display: none; }
+	.images img { display: none; }
 	.logo h2 img { display: inline-block; }
 	.logo h1 img { display: none; }
 	#bottomnav ul li { display: none; }
@@ -183,28 +190,51 @@ a:active {
 	color: #00C07A;
 }
 
-.slogan {
-	margin-left: 3.5%;
-	margin-right: 6%;
-}
-
-.slogan h4 img {
-	max-width: 100%;
-	height: auto;
-	padding-top: 35px;
-	padding-bottom: 20px;
-	display: inline-block;
-}
-
-.slogan h5 img {
-	display: inline-block;
-	max-width: 100%;
-	height: auto;
-	padding-bottom: 20px;
-}
-
 section {
 	clear: left;
+	padding-top: 45px;
+}
+
+.images img {
+	max-width: 31.5%;
+	height: auto;
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 45px;
+}
+
+.images {
+	padding-bottom: 20px;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.images2 img {
+	max-width: 47.5%;
+	height: auto;
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 45px;
+}
+
+.images2 {
+	padding-bottom: 20px;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.images3 img {
+	max-width: 95%;
+	height: auto;
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 30px;
+}
+
+.images3 {
+	padding-bottom: 20px;
+	margin-left: 7%;
+	margin-right: 7%;
 }
 
 footer {
@@ -234,7 +264,7 @@ footer p {
 	font-family: archIt;
 	font-size: 1em;
 	color: #ffffff;
-	margin-right: 8%;
+	margin-right: 7%;
 	padding-top: 25px;
 }
 
