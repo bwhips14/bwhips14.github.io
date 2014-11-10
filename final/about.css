@@ -60,12 +60,24 @@ table {
 	.images2 { display: none; }	
 	.logo h2 img { display: none; }
 	#smallnav ul li { display: none; }
+	.bio p { margin-left: 20%; margin-right: 20%; }
+	.bio h1 { margin-left: 20%; margin-right: 20%; }
+	.bio h2 { margin-left: 20%; margin-right: 20%; }
+	.bio2 p { margin-left: 20%; margin-right: 20%; }
+	.bio2 h1 { margin-left: 20%; margin-right: 20%; }
+	.bio2 h2 { margin-left: 20%; margin-right: 20%; }
 	}
 
 @media screen and (max-width:1270px) {
 	.images3 { display: none; }
 	.images2 { display: block; }
 	.images { display: none; }
+	.bio p { margin-left: 7%; margin-right: 10%; }
+	.bio h1 { margin-left: 7%; margin-right: 10%; }
+	.bio h2 { margin-left: 7%; margin-right: 10%; }
+	.bio2 p { margin-left: 7%; margin-right: 10%; }
+	.bio2 h1 { margin-left: 7%; margin-right: 10%; }
+	.bio2 h2 { margin-left: 7%; margin-right: 10%; }
 	}
 
 @media screen and (max-width:630px) {
@@ -100,6 +112,11 @@ table {
 @font-face {
 	font-family: archIt;
 	src: url("Font/Archer-LightItal-Pro.otf");
+}
+
+@font-face {
+	font-family: arch;
+	src: url("Font/Archer-Light.otf");
 }
 
 body {
@@ -196,16 +213,11 @@ section {
 }
 
 .images img {
+	margin-bottom: 35px;
 	max-width: 31.5%;
 	height: auto;
 	float: left;
 	padding-right: 20px;
-	padding-bottom: 45px;
-}
-
-.images img:hover {
-	opacity: 0.35;
-	filter: alpha(opacity=35);
 }
 
 .images {
@@ -215,16 +227,11 @@ section {
 }
 
 .images2 img {
+    padding-bottom: 35px;
 	max-width: 47.5%;
 	height: auto;
 	float: left;
 	padding-right: 20px;
-	padding-bottom: 45px;
-}
-
-.images2 img:hover {
-	opacity: 0.35;
-	filter: alpha(opacity=35);
 }
 
 .images2 {
@@ -234,22 +241,77 @@ section {
 }
 
 .images3 img {
+	padding-bottom: 20px;
 	max-width: 95%;
 	height: auto;
 	float: left;
 	padding-right: 20px;
-	padding-bottom: 30px;
-}
-
-.images3 img:hover {
-	opacity: 0.35;
-	filter: alpha(opacity=35);
 }
 
 .images3 {
 	padding-bottom: 20px;
 	margin-left: 7%;
 	margin-right: 7%;
+}
+
+.bio {
+	margin-left: 7%;
+	margin-right: 10%;
+	background-color: #ffffff;
+	overflow: hidden;
+	width: 0 auto;
+}
+
+.bio p {
+	font-family: arch;
+	font-size: .9em;
+	line-height: 1.3em;
+	margin-bottom: .75em;
+}
+
+.bio h1 {
+	font-family: bold;
+	font-size: 2.25em;
+	text-transform: uppercase;
+	color: #4B4B4B;
+}
+
+.bio h2 {
+	font-family: arch;
+	font-size: 1.75em;
+	color: #00C07A;
+	padding-bottom: .75em;
+}
+
+.bio2 {
+	background-color: #ffffff;
+	margin-top: -15px;
+	margin-left: 7%;
+	margin-right: 10%;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.bio2 p {
+	font-family: arch;
+	font-size: .9em;
+	line-height: 1.3em;
+	margin-bottom: .75em;
+	padding-bottom: 25px;
+}
+
+.bio2 h1 {
+	font-family: bold;
+	font-size: 2.25em;
+	text-transform: uppercase;
+	color: #4B4B4B;
+}
+
+.bio2 h2 {
+	font-family: arch;
+	font-size: 1.75em;
+	color: #00C07A;
+	padding-bottom: .75em;
 }
 
 footer {
