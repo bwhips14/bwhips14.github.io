@@ -167,8 +167,18 @@ h6 {
 	font-size: .95em;
 	float: left;
 	padding: 0px 0px 0px 90px;
+	margin-bottom: 5px;
 }
 
+.nav h4 {
+	clear: left;
+	margin-top: 10px;
+	margin-left: 165px;
+	width: 60px;
+	height: 2px;
+	background-color: #00C07A;
+	overflow: hidden;
+}
 
 a:link {
     text-decoration: none;
@@ -199,13 +209,22 @@ section {
 	max-width: 31.5%;
 	height: auto;
 	float: left;
-	padding-right: 20px;
-	padding-bottom: 45px;
+	margin-right: 20px;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+   -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+   opacity: 0.9;
+   filter: alpha(opacity=90); /* For IE8 and earlier */
 }
 
 .images img:hover {
-	opacity: 0.35;
-	filter: alpha(opacity=35);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: none; /* IE6-9 */
+   -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+   opacity: 1;
+   filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .images {
@@ -220,11 +239,21 @@ section {
 	float: left;
 	padding-right: 20px;
 	padding-bottom: 45px;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+   -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+   -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+   opacity: 0.9;
+   filter: alpha(opacity=90); /* For IE8 and earlier */
 }
 
 .images2 img:hover {
-	opacity: 0.35;
-	filter: alpha(opacity=35);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: none; /* IE6-9 */
+   -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+   -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+   opacity: 1;
+   filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .images2 {
@@ -239,11 +268,21 @@ section {
 	float: left;
 	padding-right: 20px;
 	padding-bottom: 30px;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+   -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+   -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+   opacity: 0.9;
+   filter: alpha(opacity=90); /* For IE8 and earlier */
 }
 
 .images3 img:hover {
-	opacity: 0.35;
-	filter: alpha(opacity=35);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: none; /* IE6-9 */
+   -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+   -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+   opacity: 1;
+   filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .images3 {
