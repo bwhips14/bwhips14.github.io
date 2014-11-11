@@ -255,8 +255,8 @@ section {
 #video-container2 embed {
     position: absolute;
     top: 35;
-    left: 4.5%;
-    width: 92%;
+    left: 6%;
+    width: 90%;
     height: 85%;
 }
 
@@ -339,10 +339,10 @@ section {
 
 #paragraphs2 {
 	float: left;
-	width: 90%;
-	padding-left: 4%;
-	padding-right: 4%;
-	padding-top: 35px;
+	width: 85%;
+	padding-left: 8%;
+	padding-right: 7%;
+	padding-top: 15px;
 	padding-bottom: 35px;
     background-color: #ffffff;
 }
