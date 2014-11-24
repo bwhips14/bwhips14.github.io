@@ -3,6 +3,13 @@
   <head>
 	  <title>Brendan Whipple Portfolio</title>
 	  <link rel="stylesheet" href="work.css" type="text/css" media="screen">
+
+	  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+	  
+	  <script type="text/javascript" src="captionjs-master/jquery.caption.js"></script>
+	  
+	  <link href="captionjs-master/captionjs.css" rel="stylesheet"/>
+
   </head>
   <body>
 	  <header id="header">
@@ -31,15 +38,15 @@
 	  </header>
 	  <section class="images">
 		  <div id="images">
-		  	  <a href="mag.html"><img src="images/magcover.jpg" /></a>
-		  	  <a href="cage.html"><img src="images/cagecover.jpg" /></a>
-			  <a href="heart.html"><img src="images/heartcover.jpg" /></a>
-			  <a href="away.html"><img src="images/awaycover.jpg" /></a>
-			  <a href="first.html"><img src="images/firstcover.jpg" /></a>
-			  <a href="emotion.html"><img src="images/emotioncover.jpg" /></a>
-			  <a href="pears.html"><img src="images/pearscover.jpg" /></a>
-			  <a href="ten.html"><img src="images/tencover.jpg" /></a>	 
-			  <a href="black.html"><img src="images/blackcover.jpg" /></a>	 
+		  	  <a href="mag.html"><img src="images/magcover.jpg" alt="CUPCHECK Magazine" data-caption="CUPCHECK Magazine" /></a>
+		  	  <a href="cage.html"><img src="images/cagecover.jpg" alt="Encage book" data-caption="Encage book" /></a>
+			  <a href="heart.html"><img src="images/heartcover.jpg" alt="Have Heart illustration" data-caption="Have Heart illustration" /></a>
+			  <a href="away.html"><img src="images/awaycover.jpg" alt="Away album art" data-caption="Away album art" /></a>
+			  <a href="first.html"><img src="images/firstcover.jpg" alt="First Things First animation" data-caption="First Things First animation" /></a>
+			  <a href="emotion.html"><img src="images/emotioncover.jpg" alt="E Motion brand identity" data-caption="E Motion brand identity"/></a>
+			  <a href="pears.html"><img src="images/pearscover.jpg" alt="Pears online roommate finder" data-caption="Pears online roommate finder"/></a>
+			  <a href="ten.html"><img src="images/tencover.jpg" alt="Ten Things to Know" data-caption="Ten Things to Know"/></a>	 
+			  <a href="black.html"><img src="images/blackcover.jpg" alt="Boston in Black and White" data-caption="Boston in Black and White"/></a>	 
 	  	  </div>
 	  </section>
 	  <section class="images2">
@@ -87,5 +94,14 @@
 			  </ul>
 		  </div>
 	  </footer>
+
+	  <script>
+	  $(window).load(function() {
+	      $('img.caption').captionjs();
+	  });
+	  </script>
+	
+	  <script src="captionjs-master/jquery.caption.js" type="text/javascript"></script>
+	  
   </body>
 </html>
