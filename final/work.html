@@ -9,6 +9,66 @@
 	  <script type="text/javascript" src="captionjs-master/jquery.caption.js"></script>
 	  
 	  <link href="captionjs-master/captionjs.css" rel="stylesheet"/>
+	  
+	  <style>
+	  		.captionjs, .captionjs figcaption {
+	  			margin: 0 0 20px;
+	  			padding: 0;
+	  		}
+	  		.captionjs figcaption {
+	  			font-size: 13px;
+	  			line-height: 1.5;
+	  			padding: 10px 15px;
+	  			border: 1px solid #ddd;
+	  			border-top: none;
+	  			background-color: #eee;
+	  		}
+	  		.captionjs.stacked figcaption {
+	  			background-color: rgba(0, 0, 0, 0.75);
+	  			color: #fff;
+	  			border: none;
+	  		}
+	  		.captionjs.animated figcaption {
+	  			border-top: 1px solid rgba(255, 255, 255, 0.3);
+	  			background-color: rgba(0, 0, 0, 0.75);
+	  			color: #fff;
+	  			border: none;
+	  		}
+	  		.captionjs.hide figcaption {
+	  			border-top: 1px solid rgba(255, 255, 255, 0.3);
+	  			background-color: rgba(0, 0, 0, 0.75);
+	  			color: #fff;
+	  			border: none;
+	  		}
+	  		.captionjs.default a {
+	  			color: #000;
+	  		}
+
+	  	</style>
+
+	  	<!--///////////////////////////// Sample JS /////////////////////////////-->
+	  	<script type="text/javascript">
+	  		$(window).load(function(){
+	  			$('img#example-1').captionjs({
+	  				'force_dimensions': true
+	  			});
+
+	  			$('img#example-2').captionjs({
+	  				'force_dimensions': true,
+	  				'mode'            : 'stacked'
+	  			});
+
+	  			$('img#example-3').captionjs({
+	  				'force_dimensions': true,
+	  				'mode'            : 'hide'
+	  			});
+
+	  			$('img#example-4').captionjs({
+	  				
+	  				'mode'            : 'animated'
+	  			});
+	  		});
+	  	</script>
 
   </head>
   <body>
@@ -38,7 +98,7 @@
 	  </header>
 	  <section class="images">
 		  <div id="images">
-		  	  <a href="mag.html"><img id="caption-4" class="caption" src="images/magcover.jpg" alt="CUPCHECK Magazine" data-caption="CUPCHECK Magazine" /></a>
+		  	  <a href="mag.html"><img id="example-4" class="caption" src="images/magcover.jpg" alt="CUPCHECK Magazine" data-caption="CUPCHECK Magazine" /></a>
 		  	  <a href="cage.html"><img src="images/cagecover.jpg" alt="Encage book" data-caption="Encage book" /></a>
 			  <a href="heart.html"><img src="images/heartcover.jpg" alt="Have Heart illustration" data-caption="Have Heart illustration" /></a>
 			  <a href="away.html"><img src="images/awaycover.jpg" alt="Away album art" data-caption="Away album art" /></a>
@@ -94,14 +154,6 @@
 			  </ul>
 		  </div>
 	  </footer>
-
-	  <script>
-	  $(window).load(function() {
-	      $('img#caption-4').captionjs();
-	  });
-	  </script>
-	
-	  <script src="captionjs-master/jquery.caption.js" type="text/javascript"></script>
 	  
   </body>
 </html>
