@@ -77,14 +77,20 @@ html[xmlns] .clearfix { display: block; }
 
 
 @media screen and (max-width: 1000px) {
-	.section .article { clear: left; width: 50%; }
+	.section .article { clear: left; width: 60%; }
 	.article h2 { font-size: 35px; }
-	.article p { font-size: 22px; }
+	.article p { font-size: 22px; } 
 }
 
+@media screen and (max-width: 630px) {
+	.links #nav li { float: none; }
+	.links #nav { width: 50%; }
+}
+	
 @media screen and (max-width: 600px) {
 	.section { margin-left: 5%; margin-right: 5%; }
 	.section .article { width: 75%; }
+	#bottom h3 { clear: left; }
 }
 
 
@@ -95,16 +101,11 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-body {
-	margin: 0 auto;
-}
-
-
 h1 {
 	text-align: center;
 }
 
-h1 p {
+h1 {
 	margin-top: 50px;
 	margin-bottom: 20px;
 	font-family: univers;
@@ -114,7 +115,7 @@ h1 p {
 
 .links {
 	width: 100%;
-	display: inline-block;
+	text-align: center;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
 	margin-bottom: 25px;
@@ -123,25 +124,20 @@ h1 p {
 }
 
 #nav {
-	width: 100%;
-	margin: 0 auto;
+	display: inline-block;
+	width: 610px;
 }
 
 #nav li {
 	float: left;
-	display: inline-block;
 	padding-left: 5px;
 	padding-right: 5px;
-	margin-left: 1%;
-	margin-right: 1%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 	font-family: serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 22px;
-}
-
-#photos {
-	padding: 0px 10px 0px 0px;
 }
 
 h2 {
@@ -157,9 +153,7 @@ h4 img {
 }
 
 section {
-	width: 100%;
-	margin-left: 18%;
-	margin-right: 18%;
+	margin-left: 27%;
 
 }
 
@@ -174,22 +168,22 @@ footer {
 }
 
 .foot {
-	display: inline-block;
 	width: 100%;
+	text-align: center;
 	border-top: 3px solid black;
 	margin-top: 25px;
 }
 
 #bottom {
-	width: 100%;
-	margin: 0 auto;
+	display: inline-block;
+	width: 610px;
+	padding-top: 10px;
 }
 
-#bottom li {
+#bottom h3 {
 	font-size: 13px;
 	float: left;
-	width: 200px;
-	margin-right: 100px;
-	margin-left: 7%;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
