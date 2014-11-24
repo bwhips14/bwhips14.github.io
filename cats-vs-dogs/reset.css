@@ -76,9 +76,15 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-@media screen and (max-width:1270px) {
-	.links { display: none; }
+@media screen and (max-width: 1000px) {
+	.section .article { clear: left; width: 50%; }
+	.article h2 { font-size: 35px; }
+	.article p { font-size: 22px; }
+}
 
+@media screen and (max-width: 600px) {
+	.section { margin-left: 5%; margin-right: 5%; }
+	.section .article { width: 75%; }
 }
 
 
@@ -100,9 +106,9 @@ h1 {
 
 h1 p {
 	margin-top: 50px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	font-family: univers;
-	font-size: 5em;
+	font-size: 7em;
 	text-transform: uppercase;
 }
 
@@ -114,6 +120,11 @@ h1 p {
 	margin-bottom: 25px;
 	padding-top: 8px;
 	padding-bottom: 5px;
+}
+
+#nav {
+	width: 100%;
+	margin: 0 auto;
 }
 
 #nav li {
@@ -137,18 +148,25 @@ h2 {
 	display: inline-block;
 	font-family: serif;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 25px;
 	margin: 15px 0px 10px 0px;
 }
 
+h4 img {
+	max-width: 100%;
+}
+
 section {
-	width: 100%
+	width: 100%;
+	margin-left: 18%;
+	margin-right: 18%;
+
 }
 
 .article {
 	float: left;
-	width: 40%;
-	margin: 0px 10px 10px 10px;
+	width: 27%;
+	margin: 20px;
 }
 
 footer {
@@ -158,12 +176,20 @@ footer {
 .foot {
 	display: inline-block;
 	width: 100%;
-	font-size: 13px;
 	border-top: 3px solid black;
 	margin-top: 25px;
 }
 
-#foot {
+#bottom {
+	width: 100%;
+	margin: 0 auto;
+}
 
+#bottom li {
+	font-size: 13px;
+	float: left;
+	width: 200px;
+	margin-right: 100px;
+	margin-left: 7%;
 }
 

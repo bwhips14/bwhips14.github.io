@@ -64,8 +64,9 @@
 	  			});
 
 	  			$('img#example-4').captionjs({
-	  				
+	  				'force_dimensions': true,
 	  				'mode'            : 'animated'
+					'is_responsive' : true
 	  			});
 	  		});
 	  	</script>
@@ -98,7 +99,7 @@
 	  </header>
 	  <section class="images">
 		  <div id="images">
-		  	  <a href="mag.html"><img id="example-4" class="caption" src="images/magcover.jpg" alt="CUPCHECK Magazine" data-caption="CUPCHECK Magazine" /></a>
+		  	  <div class="is_responsive"><a href="mag.html"><img id="example-4" class="caption" src="images/magcover.jpg" alt="CUPCHECK Magazine" data-caption="CUPCHECK Magazine" /></a></div>
 		  	  <a href="cage.html"><img src="images/cagecover.jpg" alt="Encage book" data-caption="Encage book" /></a>
 			  <a href="heart.html"><img src="images/heartcover.jpg" alt="Have Heart illustration" data-caption="Have Heart illustration" /></a>
 			  <a href="away.html"><img src="images/awaycover.jpg" alt="Away album art" data-caption="Away album art" /></a>
