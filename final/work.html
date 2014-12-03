@@ -3,6 +3,15 @@
   <head>
 	  <title>Brendan Whipple Portfolio</title>
 	  <link rel="stylesheet" href="work.css" type="text/css" media="screen">
+
+	  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+
+	  <script type="text/javascript" src="jquery.capty-0.2.1/css/jquery.capty.css"></script>
+	  <script type="text/javascript" src="jquery.capty-0.2.1/js/jquery.capty.js"></script>
+	  <script type="text/javascript" src="jquery.capty-0.2.1/js/jquery.capty.min.js"></script>
+	  <script type="text/javascript" src="jquery.capty-0.2.1/js/jquery.js"></script>
+	  <script type="text/javascript" src="jquery.capty-0.2.1/index.html"></script>
+
   </head>
   <body>
 	  <header id="header">
@@ -31,7 +40,7 @@
 	  </header>
 	  <section class="images">
 		  <div id="images">
-		  	  <a href="mag.html"><img src="images/magcover.jpg" /></a>
+		  	  <a href="mag.html"><img id="default" src="images/magcover.jpg" alt" CUPCHECK Magazine" /></a>
 		  	  <a href="cage.html"><img src="images/cagecover.jpg" /></a>
 			  <a href="heart.html"><img src="images/heartcover.jpg" /></a>
 			  <a href="away.html"><img src="images/awaycover.jpg" /></a>
@@ -87,5 +96,11 @@
 			  </ul>
 		  </div>
 	  </footer>
+	  
+	  <script type="text/javascript">
+	  	$('#default').capty();
+	  </script>
+	  
+	  
   </body>
 </html>
