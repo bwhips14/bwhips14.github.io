@@ -1,18 +1,87 @@
 <!DOCTYPE html>
 <html>
   <head>
+	  <meta charset="UTF-8">
 	  <title>Brendan Whipple Portfolio</title>
 	  <link rel="stylesheet" href="work.css" type="text/css" media="screen">
 
 	  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+<<<<<<< HEAD
 
 	  <script type="text/javascript" src="jquery.capty-0.2.1/css/jquery.capty.css"></script>
 	  <script type="text/javascript" src="jquery.capty-0.2.1/js/jquery.capty.js"></script>
 	  <script type="text/javascript" src="jquery.capty-0.2.1/js/jquery.capty.min.js"></script>
 	  <script type="text/javascript" src="jquery.capty-0.2.1/js/jquery.js"></script>
 	  <script type="text/javascript" src="jquery.capty-0.2.1/index.html"></script>
+=======
+	  
+	  <script type="text/javascript" src="captionjs-master/jquery.caption.js"></script>
+	  
+	  <link href="captionjs-master/captionjs.css" rel="stylesheet"/>
+	  
+	  <style>
+	  
+	  @font-face {
+	  	font-family: archIt;
+	  	src: url("Font/Archer-LightItal-Pro.otf");
+	  }
+	  
+	  		.captionjs, .captionjs figcaption {
+	  			margin: 0 0 20px;
+	  			padding: 0;
+	  		}
+	  		.captionjs figcaption {
+	  			font-size: 13px;
+	  			line-height: 1.5;
+	  			padding: 10px 15px;
+	  			border: 1px solid #ddd;
+	  			border-top: none;
+	  			background-color: #eee;
+	  		}
+	  		.captionjs.stacked figcaption {
+	  			background-color: rgba(0, 0, 0, 0.75);
+	  			color: #fff;
+	  			border: none;
+	  		}
+	  		.captionjs.animated figcaption {
+	  			border-top: 1px solid rgba(255, 255, 255, 0.3);
+	  			background-color: rgba(0, 0, 0, 0.75);
+	  			color: #fff;
+	  			border: none;
+				font-family: archIt;
+				text-align: center;
+	  		}
+	  		.captionjs.hide figcaption {
+	  			border-top: 1px solid rgba(255, 255, 255, 0.3);
+	  			background-color: rgba(0, 0, 0, 0.75);
+	  			color: #fff;
+	  			border: none;
+	  		}
+	  		.captionjs.default a {
+	  			color: #000;
+	  		}
+
+	  	</style>
+
+	  	<!--///////////////////////////// Sample JS /////////////////////////////-->
+	  	<script type="text/javascript">
+	  		$(window).load(function(){
+				
+				$(document).ready(function(){
+		  			$('img#example-4').captionjs({
+		  				'force_dimensions': true,
+		  				'mode'            : 'animated',
+						'is_responsive' : true,
+		  			});
+		  		});
+			});
+
+	  	
+	  	</script>
+>>>>>>> FETCH_HEAD
 
   </head>
+  
   <body>
 	  <header id="header">
 	  <div class="logo">
@@ -21,7 +90,7 @@
 		  </h1>
 		  <h2>
 			  <a href="index.html"><img src="images/myLogo1.png" width="200px" /><a>
-		  <h2>
+		  </h2>
 	  </div>
 	  <div class="title">
 		  <h2>
@@ -34,10 +103,10 @@
 				  <h5><a href="about.html">about myself</a></h5>
 				  <h6><a href="work.html">portfolio</a></h6>
 				  <h4> </h4>
-			  </ul>
 		  </div>
 	  </div>
 	  </header>
+<<<<<<< HEAD
 	  <section class="images">
 		  <div id="images">
 		  	  <a href="mag.html"><img id="default" src="images/magcover.jpg" alt" CUPCHECK Magazine" /></a>
@@ -77,6 +146,99 @@
 			  <a href="black.html"><img src="images/blackcover.jpg" /></a>		  
 	  	  </div>
       </section>
+=======
+	  
+		  <section id="images">
+			  <div id="parent">
+		  	  	<div class="is_responsive"><a href="mag.html"><img id="example-4" class="caption" src="images/magcover.jpg" alt="CUPCHECK Magazine" data-caption="CUPCHECK Magazine" /></a></div>
+		  	  </div>
+			  <div id="parent">
+		  	  	<div class="is_responsive"><a href="cage.html"><img id="example-4" class="caption" src="images/cagecover.jpg" alt="Encage Book" data-caption="Encage Book" /></a></div>
+		  	  </div>
+			  <div id="parent">
+			  	<div class="is_responsive"><a href="heart.html"><img id="example-4" class="caption" src="images/heartcover.jpg" alt="Have Heart Illustration" data-caption="Have Heart Illustration" /></a></div>
+		  	  </div>
+			  <div id="parent">
+			  	<div class="is_responsive"><a href="away.html"><img id="example-4" class="caption" src="images/awaycover.jpg" alt="Away Album Art" data-caption="Away Album Art" /></a></div>
+		  	  </div>
+			  <div id="parent">
+			  	<div class="is_responsive"><a href="first.html"><img id="example-4" class="caption" src="images/firstcover.jpg" alt="First Things First Animation" data-caption="First Things First Animation" /></a></div>
+		 	  </div>
+		  	  <div id="parent">
+			  	<div class="is_responsive"><a href="emotion.html"><img id="example-4" class="caption" src="images/emotioncover.jpg" alt="E Motion Brand Identity" data-caption="E Motion Brand Identity" /></a></div>
+		  	  </div>
+			  <div id="parent">
+			  	<div class="is_responsive"><a href="keats.html"><img id="example-4" class="caption" src="images/keatscover.jpg" alt="To Steal the Basil Pot Book" data-caption="To Steal the Basil Pot Book" /></a></div>
+		  	  </div>
+			  <div id="parent">
+			  	<div class="is_responsive"><a href="ten.html"><img id="example-4" class="caption" src="images/tencover.jpg" alt="Ten Things to Know Booklet" data-caption="Ten Things to Know Booklet" /></a></div>
+		 	  </div>
+			  <div id="parent">	 
+			  	<div class="is_responsive"><a href="black.html"><img id="example-4" class="caption" src="images/blackcover.jpg" alt="Boston in Black and White Photography" data-caption="Boston in Black and White Photography" /></a></div>
+		  	  </div>	 
+		  </section>
+	  
+		  <section id="images2">
+			  <div id="parent2">
+		  	  	<div class="is_responsive2"><a href="mag.html"><img id="example-4" class="caption" src="images/magcover.jpg" alt="CUPCHECK Magazine" data-caption="CUPCHECK Magazine" /></a></div>
+		      </div>
+			  <div id="parent2">
+		  	  	<div class="is_responsive2"><a href="cage.html"><img id="example-4" class="caption" src="images/cagecover.jpg" alt="Encage Book" data-caption="Encage Book" /></a></div>
+			  </div>
+			  <div id="parent2">
+			  	<div class="is_responsive2"><a href="heart.html"><img id="example-4" class="caption" src="images/heartcover.jpg" alt="Have Heart Illustration" data-caption="Have Heart Illustration" /></a></div>
+		  	  </div>
+			  <div id="parent2">
+			  	<div class="is_responsive2"><a href="away.html"><img id="example-4" class="caption" src="images/awaycover.jpg" alt="Away Album Art" data-caption="Away Album Art" /></a></div> 
+			  </div> 
+			  <div id="parent2">
+			  	<div class="is_responsive2"><a href="first.html"><img id="example-4" class="caption" src="images/firstcover.jpg" alt="First Things First Animation" data-caption="First Things First Animation" /></a></div>
+			  </div>
+			  <div id="parent2">
+			  	<div class="is_responsive2"><a href="emotion.html"><img id="example-4" class="caption" src="images/emotioncover.jpg" alt="E Motion Brand Identity" data-caption="E Motion Brand Identity" /></a></div>
+		  	  </div>
+			  <div id="parent2">
+			  	<div class="is_responsive2"><a href="keats.html"><img id="example-4" class="caption" src="images/keatscover.jpg" alt="To Steal the Basil Pot Book" data-caption="To Steal the Basil Pot Book" /></a></div>
+			  </div>
+			  <div id="parent2">
+			  	<div class="is_responsive2"><a href="ten.html"><img id="example-4" class="caption" src="images/tencover.jpg" alt="Ten Things to Know Booklet" data-caption="Ten Things to Know Booklet" /></a></div>	
+			  </div>
+			  <div id="parent2">
+			  	<div class="is_responsive3"><a href="black.html"><img id="example-4" class="caption" src="images/blackcover.jpg" alt="Boston in Black and White Photography" data-caption="Boston in Black and White Photography" /></a></div>	
+			  </div>  
+	  	  </section>
+	 
+		  <section id="images3">
+			  <div id="parent3">
+		  	  	<div class="is_responsive2"><a href="mag.html"><img id="example-4" class="caption" src="images/magcover.jpg" alt="CUPCHECK Magazine" data-caption="CUPCHECK Magazine" /></a></div>
+			  </div>
+			  <div id="parent3">
+		  	  	<div class="is_responsive2"><a href="cage.html"><img id="example-4" class="caption" src="images/cagecover.jpg" alt="Encage Book" data-caption="Encage Book" /></a></div>
+			  </div>
+			  <div id="parent3">
+			  	<div class="is_responsive2"><a href="heart.html"><img id="example-4" class="caption" src="images/heartcover.jpg" alt="Have Heart Illustration" data-caption="Have Heart Illustration" /></a></div>
+			  </div>
+			  <div id="parent3">
+			  	<div class="is_responsive2"><a href="away.html"><img id="example-4" class="caption" src="images/awaycover.jpg" alt="Away Album Art" data-caption="Away Album Art" /></a></div>
+			  </div>
+			  <div id="parent3">
+			   	<div class="is_responsive2"><a href="first.html"><img id="example-4" class="caption" src="images/firstcover.jpg" alt="First Things First Animation" data-caption="First Things First Animation" /></a></div>
+			  </div>
+			  <div id="parent3">
+			  	<div class="is_responsive2"><a href="emotion.html"><img id="example-4" class="caption" src="images/emotioncover.jpg" alt="E Motion Brand Identity" data-caption="E Motion Brand Identity" /></a></div>
+			  </div>
+			  <div id="parent3">
+			  	<div class="is_responsive2"><a href="keats.html"><img id="example-4" class="caption" src="images/keatscover.jpg" alt="To Steal the Basil Pot Book" data-caption="To Steal the Basil Pot Book" /></a></div>
+			  </div>
+			  <div id="parent3">
+			 	<div class="is_responsive2"><a href="ten.html"><img id="example-4" class="caption" src="images/tencover.jpg" alt="Ten Things to Know Booklet" data-caption="Ten Things to Know Booklet" /></a></div>
+			  </div>
+			  <div id="parent3">
+			  	<div class="is_responsive3"><a href="black.html"><img id="example-4" class="caption" src="images/blackcover.jpg" alt="Boston in Black and White Photography" data-caption="Boston in Black and White Photography" /></a></div>	
+			  </div>	  
+	  	  </section>
+		  
+>>>>>>> FETCH_HEAD
 	  <footer id="footer">
 		  <div class="contact">
 		  	  <p>contact</p>
@@ -97,10 +259,13 @@
 		  </div>
 	  </footer>
 	  
+<<<<<<< HEAD
 	  <script type="text/javascript">
 	  	$('#default').capty();
 	  </script>
 	  
 	  
+=======
+>>>>>>> FETCH_HEAD
   </body>
 </html>

@@ -74,78 +74,116 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
-body {
-	width: 80%;
-	margin: 0 auto;
+
+
+@media screen and (max-width: 1000px) {
+	.section .article { clear: left; width: 60%; }
+	.article h2 { font-size: 35px; }
+	.article p { font-size: 22px; } 
 }
 
-header {
+@media screen and (max-width: 630px) {
+	.links #nav li { float: none; }
+	.links #nav { width: 50%; }
+}
+	
+@media screen and (max-width: 600px) {
+	.section { margin-left: 5%; margin-right: 5%; }
+	.section .article { width: 75%; }
+	#bottom h3 { clear: left; }
+}
+
+
+@font-face {
+	font-family: univers;
+	src: url("fonts/UniversLTStd-BoldCn.otf");
+}
+
+
+
+h1 {
 	text-align: center;
 }
 
 h1 {
-	margin: 25px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-family: univers;
+	font-size: 7em;
+	text-transform: uppercase;
 }
 
 .links {
-	width: 690px;
+	width: 100%;
+	text-align: center;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	margin-bottom: 25px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+
+#nav {
 	display: inline-block;
+	width: 610px;
+}
+
+#nav li {
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 	font-family: serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 22px;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
-	margin: 0px 0px 20px 0px;
-}
-
-ol li {
-	float: left;
-	display: inline-block;
-	margin: 6px 0px 3px 10px;
-}
-
-#photos {
-	padding: 0px 10px 0px 0px;
-}
-
-#nav {
-	width: 690px;
-	text-align: center;
-	padding: 0px 30px;
 }
 
 h2 {
 	display: inline-block;
 	font-family: serif;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 25px;
 	margin: 15px 0px 10px 0px;
 }
 
+h4 img {
+	max-width: 100%;
+}
+
 section {
-	margin: 0 auto;
-	width: 690px;
+	margin-left: 27%;
+
 }
 
 .article {
 	float: left;
-	width: 320px;
-	margin: 0px 10px 10px 10px;
+	width: 27%;
+	margin: 20px;
 }
 
 footer {
-	margin: 0 auto;
 	clear: left;
-	width: 690px;
-	font-size: 13px;
-	border-top: 3px solid black;
 }
 
-ul li {
-	display: inline;
+.foot {
+	width: 100%;
+	text-align: center;
+	border-top: 3px solid black;
+	margin-top: 25px;
+}
+
+#bottom {
+	display: inline-block;
+	width: 610px;
+	padding-top: 10px;
+}
+
+#bottom h3 {
+	font-size: 13px;
 	float: left;
-	padding: 6px 20px;
-	margin: 0px 50px;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
