@@ -53,7 +53,7 @@ table {
 /*-------------------------------------------------------*/
 
 
-@media mobile and (max-width: 500px) {
+@media only screen and (max-width:320px) {
 	.logo a img { max-width: 100%; }
 	.title h2 { font-size: 16px; }
 	.title h3 { font-size: 16px; }
