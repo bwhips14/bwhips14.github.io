@@ -58,7 +58,7 @@ table {
 	.logo h2 a img { display: none; }
 	.logo h1 a img { display: none; }
 	.logo { display: none; }
-	.logo2 h3 a img { display: inline-block; }
+	.logo2 h3 a img { display: inline-block; text-align: center; }
 	#smallnav ul li { display: none; }
 }
 
