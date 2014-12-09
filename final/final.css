@@ -69,6 +69,7 @@ table {
 	.logo h1 img { display: inline-block; }
 	#smallnav ul li { display: none; }
 	.logo2 h3 img { display: none; }
+	.logo2 { display: none; }
 	}
 
 @media screen and (max-width:1020px) {
@@ -77,6 +78,7 @@ table {
 	.logo h2 img { display: none; }
 	#smallnav ul li { display: none; }
 	.logo2 h3 img { display: none; }
+	.logo2 { display: none; }
 	}
 
 @media screen and (max-width:630px) {
@@ -84,6 +86,7 @@ table {
 	.contact p { display: none; }
 	#smallnav ul li { display: none; }
 	.logo2 h3 img { display: none; }
+	.logo2 { display: none; }
 	}
 	
 @media screen and (max-width:485px) {
@@ -95,6 +98,7 @@ table {
 	#smallnav ul li {display: block; }
 	.contact p { display: none; }
 	.logo2 h3 img { display: none; }
+	.logo2 { display: none; }
 	}
 		
 @font-face {
@@ -126,7 +130,7 @@ body {
 	padding-bottom: 10px;
 	width: 135px;
 	margin-top: 40px;
-	margin-left: 22%;
+	margin-left: 23.5%;
 	float: left;
 	border-right: 0px;
 }
