@@ -57,8 +57,8 @@ table {
 @media screen and (max-width:2000px) {
 	.slogan h4 { display: inline-block; max-width: 100%; height: auto; }
 	.slogan h5 { display: none; }
-	.logo h2 img { display: none; }
-	.logo h1 img { display: inline-block; }
+	.logo h3 img { display: none; }
+	.logo h2 img { display: inline-block; }
 	#smallnav ul li { display: none; }
 	.logo2 h3 img { display: none; }
 	.logo2 { display: none; }
@@ -67,7 +67,7 @@ table {
 @media screen and (max-width:1020px) {
 	.slogan h4 { display: none; }
 	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
-	.logo h2 img { display: none; }
+	.logo h3 img { display: none; }
 	#smallnav ul li { display: none; }
 	.logo2 h3 img { display: none; }
 	.logo2 { display: none; }
@@ -84,8 +84,8 @@ table {
 @media screen and (max-width:485px) {
 	.slogan h4 { display: none; }
 	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
-	.logo h2 img { display: inline-block; }
-	.logo h1 img { display: none; }
+	.logo h3 img { display: inline-block; }
+	.logo h2 img { display: none; }
 	#bottomnav ul li { display: none; }
 	#smallnav ul li {display: block; }
 	.contact p { display: none; }
@@ -105,6 +105,10 @@ table {
 
 body {
 	background-color: #F1F1F1;
+}
+
+.logo h1 {
+	text-indent: -9999px;
 }
 
 .logo {
@@ -137,12 +141,13 @@ body {
 	margin-left: 45px;
 }
 
-.logo h1 {
+.logo h2 {
 	display: inline-block;
 	float: left;
+	margin-top: -15px;
 }
 
-.logo h2 {
+.logo h3 {
 	display: inline-block;
 	position: absolute;
 	top: 5px;
