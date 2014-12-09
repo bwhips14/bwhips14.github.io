@@ -55,7 +55,7 @@ table {
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
 	.slogan h4 { display: none; }
 	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
-	.logo h2 img { display: inline-block; }
+	.logo h2 img { max-width: 100%; }
 	.logo h1 img { display: none; }
 	#bottomnav ul li { display: none; }
 	#smallnav ul li {display: block; }
