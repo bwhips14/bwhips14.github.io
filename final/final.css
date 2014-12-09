@@ -53,11 +53,17 @@ table {
 /*-------------------------------------------------------*/
 
 
-
+@media mobile and (max-width: 500px) {
+	.logo a img { max-width: 100%; }
+	.title h2 { font-size: 16px; }
+	.title h3 { font-size: 16px; }
+	.nav h5 a { font-size: 16px; }
+	.nav h6 a { font-size: 16px; }
+}
 
 @media screen and (max-width:2000px) {
 	.slogan h4 { display: inline-block; max-width: 100%; height: auto; }
-	.slogan h5 { display: none;}
+	.slogan h5 { display: none; }
 	.logo h2 img { display: none; }
 	#smallnav ul li { display: none; }
 	}
