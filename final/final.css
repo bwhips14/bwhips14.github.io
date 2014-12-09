@@ -56,7 +56,8 @@ table {
 	.slogan h4 { display: none; }
 	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
 	.logo h2 a img { display: none; }
-	.logo h1 a img { display: none; border-right: 0px; }
+	.logo h1 a img { display: none; }
+	.logo { display: none; }
 	.logo2 h3 a img { display: inline-block; }
 	#smallnav ul li { display: none; }
 }
