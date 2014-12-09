@@ -108,7 +108,8 @@ table {
 	#bottomnav ul li { display: none; }
 	#smallnav ul li {display: block; }
 	.contact p { display: none; }
-	#header { margin-bottom: 100px; }
+	#header { height: 0px; margin-bottom: -20px; }
+	.logo { position: absolute; top: -9999px; }
 	}
 		
 @font-face {

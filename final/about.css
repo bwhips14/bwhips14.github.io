@@ -97,11 +97,13 @@ table {
 	.images3 { display: block; }
 	.images2 { display: none; }
 	.images img { display: none; }
-	.logo h2 img { display: none; }
+	.logo h2 img { display: inline-block; }
 	.logo h1 img { display: none; }
 	#bottomnav ul li { display: none; }
 	#smallnav ul li {display: block; }
 	.contact p { display: none; }
+	.logo { position: absolute; top: -9999px; }
+	#header { height: 130px; }
 	}
 		
 @font-face {
