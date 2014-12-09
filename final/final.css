@@ -59,6 +59,13 @@ table {
 	.title h3 { font-size: 16px; }
 	.nav h5 a { font-size: 16px; }
 	.nav h6 a { font-size: 16px; }
+	.slogan h4 { display: none; }
+	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
+	.logo h2 img { display: inline-block; }
+	.logo h1 img { display: none; }
+	#bottomnav ul li { display: none; }
+	#smallnav ul li {display: block; }
+	.contact p { display: none; }
 }
 
 @media screen and (max-width:2000px) {
