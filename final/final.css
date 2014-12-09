@@ -53,7 +53,7 @@ table {
 /*-------------------------------------------------------*/
 
 
-@media only screen and (max-width:320px) {
+@media handheld and (max-width:320px) {
 	.logo h1 img { max-width: 100%; }
 	.title h2 { font-size: 16px; }
 	.title h3 { font-size: 16px; }
