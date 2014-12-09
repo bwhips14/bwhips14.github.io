@@ -121,13 +121,20 @@ body {
 }
 
 .logo2 {
-	height: 95px;
+	height: 300px;
 	padding-bottom: 10px;
 	width: 135px;
 	margin-top: 40px;
 	margin-left: 6%;
 	float: left;
 	border-right: 1px solid #D1D1D1;
+}
+
+.logo2 h3 {
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	left: 20%;
 }
 
 .title {
