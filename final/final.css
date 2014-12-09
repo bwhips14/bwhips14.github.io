@@ -57,7 +57,7 @@ table {
 	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
 	.logo h2 img { display: none; }
 	.logo h1 img { display: none; }
-	.logo h3 img { display: inline-block; }
+	.logo2 h3 img { display: inline-block; }
 	#smallnav ul li { display: none; }
 }
 
@@ -65,9 +65,9 @@ table {
 	.slogan h4 { display: inline-block; max-width: 100%; height: auto; }
 	.slogan h5 { display: none; }
 	.logo h2 img { display: none; }
-	.logo h1 img { display: none; }
+	.logo h1 img { display: inline-block; }
 	#smallnav ul li { display: none; }
-	.logo h3 img { display: inline-block; }
+	.logo2 h3 img { display: none; }
 	}
 
 @media screen and (max-width:1020px) {
@@ -75,14 +75,14 @@ table {
 	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
 	.logo h2 img { display: none; }
 	#smallnav ul li { display: none; }
-	.logo h3 img { display: none; }
+	.logo2 h3 img { display: none; }
 	}
 
 @media screen and (max-width:630px) {
 	#bottomnav ul { float: none; }
 	.contact p { display: none; }
 	#smallnav ul li { display: none; }
-	.logo h3 img { display: none; }
+	.logo2 h3 img { display: none; }
 	}
 	
 @media screen and (max-width:485px) {
@@ -93,7 +93,7 @@ table {
 	#bottomnav ul li { display: none; }
 	#smallnav ul li {display: block; }
 	.contact p { display: none; }
-	.logo h3 img { display: none; }
+	.logo2 h3 img { display: none; }
 	}
 		
 @font-face {
@@ -111,8 +111,18 @@ body {
 }
 
 .logo {
-	padding-bottom: 10px;
 	height: 95px;
+	padding-bottom: 10px;
+	width: 135px;
+	margin-top: 40px;
+	margin-left: 6%;
+	float: left;
+	border-right: 1px solid #D1D1D1;
+}
+
+.logo2 {
+	height: 95px;
+	padding-bottom: 10px;
 	width: 135px;
 	margin-top: 40px;
 	margin-left: 6%;
