@@ -52,13 +52,7 @@ table {
 
 /*-------------------------------------------------------*/
 
-
-@media handheld and (max-width: 1400px) {
-	.logo h1 img { max-width: 100%; }
-	.title h2 { font-size: 16px; }
-	.title h3 { font-size: 16px; }
-	.nav h5 a { font-size: 16px; }
-	.nav h6 a { font-size: 16px; }
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
 	.slogan h4 { display: none; }
 	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
 	.logo h2 img { display: inline-block; }
