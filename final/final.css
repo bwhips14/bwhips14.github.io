@@ -53,6 +53,7 @@ table {
 /*-------------------------------------------------------*/
 
 
+
 @media screen and (max-width:2000px) {
 	.slogan h4 { display: inline-block; max-width: 100%; height: auto; }
 	.slogan h5 { display: none; }
@@ -80,7 +81,7 @@ table {
 	.logo2 { display: none; }
 	}
 	
-@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {
+@media screen and (max-width:485px) {
 	.slogan h4 { display: none; }
 	.slogan h5 { display: inline-block; max-width: 100%; height: auto; }
 	.logo h2 img { display: inline-block; }
