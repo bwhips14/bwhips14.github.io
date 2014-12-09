@@ -58,7 +58,7 @@ table {
 	.logo h2 a img { display: none; }
 	.logo h1 a img { display: none; }
 	.logo { display: none; }
-	.logo2 h3 a img { display: inline-block; text-align: center; }
+	.logo2 h3 a img { display: inline-block; }
 	#smallnav ul li { display: none; }
 }
 
@@ -126,7 +126,7 @@ body {
 	padding-bottom: 10px;
 	width: 135px;
 	margin-top: 40px;
-	margin-left: 6%;
+	margin-left: 12%;
 	float: left;
 	border-right: 0px;
 }
